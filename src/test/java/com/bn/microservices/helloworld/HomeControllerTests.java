@@ -35,7 +35,7 @@ public class HomeControllerTests {
     	
 		when(environment.getProperty("local.server.port")).thenReturn(serverPort);		
 
-	    //verify(environment).getProperty("local.server.port");		
+	    verify(environment).getProperty("local.server.port");		
 
 		assertEquals("Hello World! "+serverPort,sc.index());	
 		//assertThat(sc.index(), is("Hello World! 9501"));
