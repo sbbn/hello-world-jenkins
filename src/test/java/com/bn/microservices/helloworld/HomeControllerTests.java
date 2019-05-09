@@ -23,7 +23,7 @@ public class HomeControllerTests {
 	private HomeController sc;
 	
 	@Mock
-	private Environment environment;
+	privat Environment environment;
 	
 	@Before
     public void init() {
