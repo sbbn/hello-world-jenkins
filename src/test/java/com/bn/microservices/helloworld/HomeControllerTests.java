@@ -13,7 +13,7 @@ import org.springframework.core.env.Environment;
 import com.bn.microservices.helloworld.controller.HomeController;
 
 public class HomeControllerTests {
-	xxx
+	
 	String serverPort= "9501";
 	
 	@InjectMocks
